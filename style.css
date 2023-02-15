@@ -1,0 +1,74 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: whitesmoke;
+}
+.container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.button 
+{
+    position: relative;
+    text-align: center;
+    width: 370px;
+    padding: 40px;
+    font-size: 40px;
+    color: blanchedalmond;
+    font-family: poppins;
+    font-weight: 100;
+    border: blanchedalmond solid;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 300px;
+    transition: 3s;
+}
+.button2
+{
+    position: relative;
+    text-align: center;
+    width: 370px;
+    padding: 40px;
+    font-size: 40px;
+    color: blanchedalmond;
+    font-family: poppins;
+    font-weight: 100;
+    border: blanchedalmond solid;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 300px;
+    transition: 3s;
+}
+.button:hover 
+{
+    box-shadow: 0 5px 50px #3681ab inset, 0 5px 50px 0 #aed7ed,
+    0 5px 50px  #3681ab inset, 0 5px 50px 0 #aed7ed;
+}
+.button2:hover 
+{
+    box-shadow: 0 5px 50px #8C7ACE inset, 0 5px 50px 0 #B19CDF,
+    0 5px 50px #8C7ACE inset, 0 5px 50px 0 #B19CDF;
+}
+a:hover
+{
+    color: blanchedalmond;
+}
+.PP{
+  width: 100%;
+  background-color: #373F47;
+}
+.PP.grupo-1{
+  background-color: #373F47;
+  padding: 15px 10px;
+  text-align: center;
+  color: #AAABBC;
+}
+.pie-pagina.grupo-2 small{
+  font-size: 19px;}
